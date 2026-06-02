@@ -1,9 +1,11 @@
-#include<stdio.h>
+#include<iostream>
+using namespace std;
+
 int main(){
     int n,i;
-    printf("Enter the number whose table is to be printed: ");
-    scanf("%d",&n);
+    cout<<"Enter the number whose table is to be printed: ";
+    cin>>n;
     for(i=1;i<11;i++)
-    {printf("%d * %d = %d\n",n,i,n*i);}
+    {cout<<n<<" * "<<i<<" = "<<n*i<<endl;}
     return 0;
 }
